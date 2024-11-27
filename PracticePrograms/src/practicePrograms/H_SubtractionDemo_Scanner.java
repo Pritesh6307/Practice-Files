@@ -12,6 +12,8 @@ public class H_SubtractionDemo_Scanner {
 		int b = sc.nextInt();
 		int sub = a - b;
 		System.out.println("Subtraction of 2 Numbers = " + sub);
+		
+		sc.close();
 
 	}
 

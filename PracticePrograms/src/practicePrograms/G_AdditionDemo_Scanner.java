@@ -12,6 +12,9 @@ public class G_AdditionDemo_Scanner {
 		int b = obj.nextInt();
 		int sum = a + b;
 		System.out.println("Addition of 2 Numbers = " + sum);
+		
+		obj.close();
 	}
+	
 
 }

@@ -12,6 +12,8 @@ public class I_MultiplicationDemo_Scanner {
 		int b = sc.nextInt();
 		int mult = a * b;
 		System.out.println("Multiplication = " + mult);
+		
+		sc.close();
 
 	}
 

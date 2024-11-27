@@ -15,6 +15,7 @@ public class R_ifElse_Statement01 {
 		}else {
 			System.out.println("a is not equal to zero");
 		}
+		obj.close();
 
 	}
 
