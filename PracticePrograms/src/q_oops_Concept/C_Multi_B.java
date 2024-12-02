@@ -14,7 +14,7 @@ public class C_Multi_B extends C_Multi_A {
 		int sub = x-y;
 		System.out.println("Subtraction = " + sub);
 		
-		sc.close();
+		
 	}
 
 }

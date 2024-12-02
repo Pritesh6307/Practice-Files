@@ -14,7 +14,7 @@ public class C_Multi_C_and_Main extends C_Multi_B{
 		int mult = p*q;
 		System.out.println("Multiplication = " + mult);
 		
-		sc.close();
+		
 	}
 
 	public static void main(String[] args) {

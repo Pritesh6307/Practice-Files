@@ -14,7 +14,7 @@ public class C_Multi_A {
 		int sum = a+b;
 		System.out.println("Addition = " + sum);
 		
-		sc.close();
+		
 	}
 
 }
