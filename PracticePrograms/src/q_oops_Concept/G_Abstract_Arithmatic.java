@@ -20,7 +20,6 @@ public class G_Abstract_Arithmatic {
 
 		int result = 0;
 		boolean validChoice = true;
-
 		switch (choice) {
 		case 1:
 			result = num1 + num2;
