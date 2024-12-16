@@ -11,13 +11,15 @@ public class Interface01Main {
 		System.out.println("2. Triangle");
 		System.out.println("3. Rectangle");
 		System.out.println("4. Trapezoid");
-		System.out.print("Enter your choice (1 to 4): ");
+		System.out.println("Enter your choice (1 to 4): ");
+		System.out.println("------------------------------");
 		int choice = sc.nextInt();
 		boolean validChoice = true;
 
 		switch (choice) {
 		case 1:
-			System.out.println("Circle Operations:");
+			System.out.println("> Circle Operations:");
+			System.out.println("----------------------");
 			System.out.println("1. Calculate Area");
 			System.out.println("2. Calculate Perimeter");
 			System.out.print("Enter your choice (1 or 2): ");
@@ -37,7 +39,8 @@ public class Interface01Main {
 			}
 			break;
 		case 2:
-			System.out.println("Triangle Operations:");
+			System.out.println("> Triangle Operations:");
+			System.out.println("----------------------");
 			System.out.println("1. Calculate Area");
 			System.out.println("2. Calculate Perimeter");
 			System.out.print("Enter your choice (1 or 2): ");
@@ -57,7 +60,8 @@ public class Interface01Main {
 			}
 			break;
 		case 3:
-			System.out.println("Rectangle Operations:");
+			System.out.println("> Rectangle Operations:");
+			System.out.println("----------------------");
 			System.out.println("1. Calculate Area");
 			System.out.println("2. Calculate Perimeter");
 			System.out.print("Enter your choice (1 or 2): ");
@@ -77,7 +81,8 @@ public class Interface01Main {
 			}
 			break;
 		case 4:
-			System.out.println("Trapezoid Operations:");
+			System.out.println("> Trapezoid Operations:");
+			System.out.println("----------------------");
 			System.out.println("1. Calculate Area");
 			System.out.println("2. Calculate Perimeter");
 			System.out.print("Enter your choice (1 or 2): ");

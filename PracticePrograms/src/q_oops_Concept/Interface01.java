@@ -18,6 +18,7 @@ class circle1 implements Interface01 {
 		Scanner obj = new Scanner(System.in);
 		System.out.println("Circle");
 		System.out.println("*******");
+		System.out.println("Area = ");
 		System.out.println("Please Enter Value of r");
 		int a = obj.nextInt();
 		System.out.print("Area of circle = " + 3.14 * a * a);
@@ -33,6 +34,7 @@ class circle1 implements Interface01 {
 		System.out.println("Perimeter of circle = " + 2 * 3.14 * a);
 		System.out.println("-----------------------------------");
 	}
+
 }
 
 class triangle1 implements Interface01 {
@@ -41,6 +43,7 @@ class triangle1 implements Interface01 {
 		Scanner tr = new Scanner(System.in);
 		System.out.println("Triangle");
 		System.out.println("********");
+		System.out.println("Area = ");
 		System.out.println("Please Enter the value of b");
 		int b = tr.nextInt();
 		System.out.println("Please Enter the value of h");
@@ -71,6 +74,7 @@ class rectangle1 implements Interface01 {
 		Scanner tr = new Scanner(System.in);
 		System.out.println("Rectangle");
 		System.out.println("********");
+		System.out.println("Area = ");
 		System.out.println("Please Enter the value of length");
 		int l = tr.nextInt();
 		System.out.println("Please Enter the value of width");
@@ -101,6 +105,7 @@ class trapezoid1 implements Interface01 {
 		Scanner tr = new Scanner(System.in);
 		System.out.println("Trapezoid");
 		System.out.println("********");
+		System.out.println("Area = ");
 		System.out.print("Enter base 1: ");
 		int a = tr.nextInt();
 		System.out.println("Enter base 2: ");
